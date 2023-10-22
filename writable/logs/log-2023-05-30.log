@@ -1,0 +1,9 @@
+CRITICAL - 2023-05-30 08:34:18 --> syntax error, unexpected identifier "number_format", expecting "," or ";"
+in APPPATH\Views\v_produk.php on line 21.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_produk', [], true)
+ 3 APPPATH\Controllers\Page.php(19): view('v_produk', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Page->produk()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Page))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
